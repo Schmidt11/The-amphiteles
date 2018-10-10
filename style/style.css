@@ -1,0 +1,367 @@
+body {
+  
+  margin: 0px;
+  font-family: 'Architects Daughter', cursive;
+  background-image: url(../images/manga.jpg);
+  background-repeat: repeat;
+  background-size: 160px;
+
+}
+header {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-rows: 1fr 1fr;  
+  height: 160px;
+  background-image: url(../images/mangalinje.jpg);
+  background-size: 330px;  
+}
+
+nav {
+  padding: 0%;
+  grid-column-start: 2;
+  grid-column-gap: 5px;
+   
+}
+.header {
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;  
+  display: grid;      
+  text-align: center;
+  margin: 0%;
+  padding-left: 0%;
+  line-height: 82px;
+}
+a{
+  color: black;
+}
+
+.logo {
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.bandet {
+position: relative;
+background: #6ba77c;
+  border-radius: .4em;
+}
+
+.bandet:after {
+content: '';
+position: absolute;
+left: 0;
+top: 50%;
+width: 0;
+height: 0;
+border: 20px solid transparent;
+border-right-color: #6ba77c;
+border-left: 0;
+border-bottom: 0;
+margin-top: -10px;
+margin-left: -20px;
+
+}
+.nyheder {
+position: relative;
+background: #beffd2;
+border-radius: .4em;
+}
+
+.nyheder:after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 0;
+height: 0;
+border: 19px solid transparent;
+border-top-color: #beffd2;
+border-bottom: 0;
+margin-left: -19px;
+margin-bottom: -19px;
+}
+.tourplan {
+position: relative;
+background: #6ba77c;
+border-radius: .4em;
+}
+
+.tourplan:after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 0;
+height: 0;
+border: 27px solid transparent;
+border-top-color: #6ba77c;
+border-bottom: 0;
+border-left: 0;
+margin-left: -13.5px;
+margin-bottom: -27px;
+}
+.musik {
+position: relative;
+background: #beffd2;
+border-radius: .4em;
+}
+
+.musik:after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 0;
+height: 0;
+border: 24px solid transparent;
+border-top-color: #beffd2;
+border-bottom: 0;
+border-right: 0;
+margin-left: -12px;
+margin-bottom: -24px;
+}
+.shop {
+position: relative;
+background: #6ba77c;
+border-radius: .4em;
+}
+
+.shop:after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 0;
+height: 0;
+border: 31px solid transparent;
+border-top-color: #6ba77c;
+border-bottom: 0;
+margin-left: -31px;
+margin-bottom: -31px;
+}
+.login {
+position: relative;
+background: #beffd2;
+border-radius: .4em;
+}
+
+.login:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 31px solid transparent;
+  border-top-color: #beffd2;
+  border-bottom: 0;
+  margin-left: -60px;
+  margin-bottom: -18px;
+
+}
+
+.logo{
+    width:20%;
+}
+
+.store {
+  margin: 0 160px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+}
+
+.store article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-bottom:70px;  
+}
+.store article img {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+.store article p {
+  justify-self: right;
+  padding: 5px;
+}
+.store article button {
+  justify-self: left;
+  background-color:#beffd2;
+  color: black;
+  padding: 5px 8px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: wait;
+}
+
+.tilbud {
+font-size: 40px;
+text-align: center;
+margin-left: 160px;
+margin-right: 160px;
+margin-top: 0px;
+margin-bottom: 0px;
+background-color:white;
+line-height: 3em;
+}
+
+footer{ 
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.kontakt {
+  list-style: none;
+  text-align: center;
+}
+
+.logind{
+  text-align: center;
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: #beffd1ec;
+}
+.logindh2{
+  margin-top: 0%;
+}
+
+.info{
+  text-align: center;
+}
+
+.kalender{
+  display:grid;
+  text-align: center;
+  list-style: none;
+  line-height: 6rem;
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: #beffd1ec;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom:0; 
+}
+.ticket{
+  display: inline-block;
+  width:300px;
+  line-height: 20px;
+}
+
+.buy{
+  background-color:#beffd2;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: wait;
+    
+}
+
+.log{
+  background-color:#beffd2;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: wait;
+  
+}
+
+.firstalbum{
+  grid-column-start: 2;
+  grid-row-start: 2;
+  height: 420px;
+  width: 205px;
+  border: 1px solid black;
+}
+
+ul{
+  list-style: none;
+}
+
+.band{
+  display: grid;
+  grid-template-columns:1fr 210px;
+  grid-template-rows: 5px 1fr 5px;
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color:#beffd1ec;
+
+}
+
+.about{
+grid-column-start: 1;
+grid-row-start: 2; 
+  line-height: 2.5rem;
+  padding: 1rem;
+
+}
+
+.gruppe{
+  display: inherit;
+  width: 100%;
+}
+
+.news{
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: #beffd1ec;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+.newsoverskrift{
+  margin:20px;
+  margin-left: 0%;
+
+}
+.newsh3{
+  margin: 10px;
+  margin-left: 0%;
+}
+
+.video{ 
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+  margin: 160px;  
+  justify-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0%;
+  background-color:#beffd1ec;
+  }
+
+iframe {
+   margin: 0 auto;
+   border: 10px outset gray;
+}
+.henrik{
+ float: right;
+ width: 30%;
+ margin: 10px;
+}
+.amplifetes{
+  float: right;
+  width: 40%;
+  margin: 10px;
+}
+.forside {
+  text-align: center;
+  background-color: #beffd2;
+  }
+.forsideoverskrift {
+  margin-top: 0%;
+  line-height: 4em;
+
+}
